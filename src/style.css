@@ -1,0 +1,22 @@
+button{
+    width: 100px;
+    height: 30px;
+    border:none;
+    background-color: black;
+    border-radius: 10%;
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-duration: 250ms;
+}
+
+button:hover{
+    background-color: aquamarine;
+    border-radius: 10%;
+    color: black;
+    transition-duration: 250ms;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    visibility: hidden;
+}
