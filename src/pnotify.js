@@ -11,6 +11,7 @@ import * as PNotifyMobile from '@pnotify/mobile/dist/PNotifyMobile.js';
 
 import '@pnotify/core/dist/BrightTheme.css';
 
+
 defaultModules.set(PNotifyMobile, {});
 
 
@@ -22,13 +23,14 @@ button.addEventListener("click", () => {
   key.innerHTML = keys[currentKeyIndex];
   info({
     title: 'нову гру запущено',
-    hide: false
+    delay: 250
   });
   document.addEventListener("keydown", (e) => {
     if(e.key === key.innerHTML){
         success({
-            title: 'правильна клавіша'
-            
+            title: 'правильна клавіша',
+            delay: 250
+        
           });
           if(currentKeyIndex < keys.length) {
             key.innerHTML = keys[currentKeyIndex]
@@ -40,8 +42,8 @@ button.addEventListener("click", () => {
           result.innerHTML = currentStat
     } else {
         error({
-            text: "Неправильна клавіша.",    
-            });
+            text: "Неправильна клавіша.",  
+            delay: 250});
     }
 
 
