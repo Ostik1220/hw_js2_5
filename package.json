@@ -7,7 +7,7 @@
     "start": "npx parcel src/index.html",
     "build": "parcel build src/index.html --no-cache",
     "deploy": "gh-pages -d dist",
-    "prebuild": "npm run build"
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
