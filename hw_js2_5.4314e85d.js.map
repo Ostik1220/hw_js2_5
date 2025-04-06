@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,QAAQ,SAAS,aAAa,CAAC","sources":["src/place.js"],"sourcesContent":["const title = document.querySelector(\".title\")"],"names":[],"version":3,"file":"hw_js2_5.4314e85d.js.map","sourceRoot":"/__parcel_source_root/"}
