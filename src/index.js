@@ -1,2 +1,2 @@
-import "./js/pnotify";
-import "./js/chart";
+// import "./js/pnotify";
+// import "./js/chart";
